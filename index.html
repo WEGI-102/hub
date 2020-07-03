@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEGIDAAN YAHAYA</title>
+        <script>
+
+         //var n=prompt("what is your name?");
+             //alert("hello" +n);
+              //console.log(n);
+            //var my_name=("wegidaan");
+
+            //var num1 = prompt("enter 1st number");
+            //var num2 = prompt("enter 2nd number");
+
+            //var sum = num1 + num2;
+
+            // var firstname =" wegidaan";
+            // var lastname =" yahya";
+
+            // alert(firstname +" "+ lastname);
+
+    
+
+            // var gender = prompt("Gender");
+
+            // if (gender =="female"){
+                // alert("welcome to the progrom");
+            // }
+            // else {
+                // alert("sorry,for ladies only");
+            // }
+
+            // function fullname() {
+                // let first = prompt("first name");
+                // let last = prompt("last name");
+                // alert( "full name: " + first + " " + last);
+            // }
+
+            // fullname();
+            // var age =prompt("what is your age.type number");
+            // if(age >= 17){
+            //     alert("welcome to bar");
+                
+            //     }
+                    
+            //     else{
+            //         alert("children in");
+            //     }
+
+                // function detector(name, year_of_birth, drink) {
+                    // let min_age = 18;
+                    // let age = 2020- year_of_birth;
+                    // if ( age < min_age && drink == "beer" ) {
+                        // alert("sorry ,you are below the minimum age");
+                    //  } else if (drink != "beer") {
+                        // alert( "oya  drink");
+
+                    // } else {
+
+                        // alert("cheer to beer& life");
+                    // }
+
+
+
+
+
+
+
+                    
+    
+
+        </script>
+        <link rel="stylesheet" href="style.css"/>
+       
+    </head>
+        <body>
+            <a href="about.html">
+                about us
+            </a>
+            <!--coding skills-->
+            <h1 class="msg">welcome to my page</h1>
+            <p>this is my first web project.hurray!!!!!</p>
+            <p class="msg">list of fruits</p>
+            <ul>
+                 <li>mango</li>
+                 <li>orange</li>
+                 <li>apple</li>
+            </ul>
+            <hr>
+
+            <h1 style="color:blue;">about my self</h1>
+            <p class="msg">these are the things i like</p>
+            <p>list of things i like</p>
+            <ul>
+                <li>money</li>
+                <li>houses</li>
+                <li>shoes</li>
+                <li>clothes</li>
+                <li class="wegi">playing subway runner</li>
+            </ul>
+            <h1 class="WEGI msg">this is a new head</h1>
+
+            <img src="puppy.jpg" alt=""/>
+
+            <br/>
+            <br/>
+            <br/>
+            <div id="greettext"> </div>
+            <input  id="nameInput" type="text" placeholder= "enter your name"/>
+            <button id="greetBtn"> Greet!</button>
+
+
+            <script>
+                let btn = document.getElementById("greetBtn");
+
+                btn.addEventListener("click" , function() {
+
+                // alert("button clicked");
+
+                let msg = document.getElementById("greettext");
+                let name = document.getElementById("nameInput"); 
+
+                let val = name.value;
+                msg.innerText = " Hello , " + val;
+
+                
+                });
+
+            </script>
+            
+
+
+        </body>
+    
+           </html>
